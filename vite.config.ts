@@ -5,4 +5,7 @@ import { defineConfig } from "vite"
 export default defineConfig({
   plugins: [svelte()],
   base: "/fem-product-list/",
+  build: {
+    outDir: "docs"
+  }
 })
