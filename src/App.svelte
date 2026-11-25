@@ -65,6 +65,10 @@
   <Cart {cart} />
 </div>
 
+<footer class="link-footer">
+  <a href="https://pedrofrohmut.github.io/fem-projects/">Back to main</a>
+</footer>
+
 <style>
 .page-container {
     --gap: 1.6rem;
@@ -86,5 +90,12 @@
 
 .products-container {
     max-width: 800px;
+}
+
+.link-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-size: 0.8rem;
 }
 </style>

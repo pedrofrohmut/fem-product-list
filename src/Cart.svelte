@@ -25,8 +25,13 @@
 
 <style>
 .cart-card {
-    width: 310px;
+    background-color: white;
+    width: 386px;
+    height: fit-content;
     margin: 0 auto;
+    padding: 1.6rem;
+    padding-bottom: 2.875rem;
+    border-radius: 0.6rem;
 }
 
 .cart-title {
