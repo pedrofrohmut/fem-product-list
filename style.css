@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 :root {
     /* Guide Colors */
     --clr-red: hsl(14, 86%, 42%);
@@ -9,6 +5,7 @@
 
     --clr-rose-50: hsl(20, 50%, 98%);
     --clr-rose-100: hsl(13, 31%, 94%);
+    --clr-rose-200: hsl(13, 28%, 83%);
     --clr-rose-300: hsl(14, 25%, 72%);
     --clr-rose-400: hsl(7, 20%, 60%);
     --clr-rose-500: hsl(12, 20%, 44%);
@@ -39,6 +36,11 @@
     font-style: normal;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--ff-main);
 }
 
 body {
